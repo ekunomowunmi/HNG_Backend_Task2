@@ -10,7 +10,6 @@
     "build": "rimraf ./dist && tsc",
     "start:prod": "npm run build && node dist/index.js",
     "vercel-deploy": "vercel deploy --prod"
-
   },
   "repository": {
     "type": "git",

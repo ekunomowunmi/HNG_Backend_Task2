@@ -2,13 +2,13 @@
   "name": "hng9_backend_task2",
   "version": "1.0.0",
   "description": "HNG BACKEND TASK @",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "npm run start",
     "start": "node index.js",
     "start:dev": "nodemon",
-    "build": "rimraf ./build && tsc",
-    "start:prod": "npm run build && node build/index.js",
+    "build": "rimraf ./dist && tsc",
+    "start:prod": "npm run build && node dist/index.js",
     "vercel-deploy": "vercel deploy --prod"
 
   },

@@ -16,9 +16,6 @@ let user = {
     age: 25,
     bio: "I love to learn"
 };
-let operation;
-// operationMethod(operation_type: string){
-// }
 app.use((0, cors_1.default)());
 // Use the body parser middleware for post requests
 app.use(body_parser_1.default.urlencoded({ extended: false }));
